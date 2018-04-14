@@ -4,62 +4,99 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>final</title>
+    <title>Bobby Deltondo</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
-    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="background-color:rgb(0,0,0);">
+<body>
     <div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color:rgb(0,0,0);font-size:20px;">
-            <div class="container"><a class="navbar-brand pulse animated" href="#" style="font-size:40px;color:rgb(255,255,255);">Bobby Deltondo</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon d-block float-none" style="color:rgb(255,255,255);background-color:#ffffff;"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-1" style="color:rgb(255,255,255);">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="font-size:20px;">
+            <div class="container">
+                <a class="navbar-brand pulse animated" href="#" style="font-size:40px">Bobby Deltondo</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon d-block float-none" style="color:rgb(255,255,255);background-color:#ffffff;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" style="color:rgb(255,255,255);">About Me</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="portfolio.html" style="color:rgb(255,255,255);">Portfolio</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="color:rgb(255,255,255);">Contact</a></li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
                     </ul>
+                </div>
             </div>
-    </div>
-    </nav>
+        </nav>
     </div>
     <div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="text-center"></p><img class="img-thumbnail" src="assets/img/imgforfinal.jpg" style="background-color:rgb(0,0,0);"></div>
+                    <img class="img-thumbnail" src="assets/img/imgforfinal.jpg" style="background-color:rgb(0,0,0);">
+                </div>
                 <div class="col-md-6">
                     <h1 class="text-center text-white" style="font-size:30px;">About Me</h1>
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus lacinia tellus in auctor. Aliquam tincidunt nisl pretium, condimentum erat at, volutpat ex. Cras convallis, sapien nec pharetra ultricies, est lectus consequat
-                        mi, et vulputate mi mauris a diam. Nulla ac mollis neque. Sed faucibus elit quis mauris dignissim, ac porta ante finibus. Nulla egestas nibh in ipsum bibendum dictum. Nullam at ante ac dolor ullamcorper dictum. Donec odio dui,
-                        tincidunt ut aliquam et, vulputate vitae nunc. Nulla justo ante, tempor sit amet ultrices ut, semper sed velit. Donec porttitor dignissim gravida. Mauris sit amet lectus dapibus, volutpat neque sed, efficitur leo. Nunc ut mattis
-                        sem. Donec nec auctor odio. Cras lacinia, mauris in tristique dapibus, turpis erat laoreet turpis, et euismod nisl orci vitae quam. Quisque finibus vel mauris a fermentum. Curabitur nec porta nunc.<br></p>
+                    <p class="text-white on-click-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus lacinia tellus in auctor.
+                        Aliquam tincidunt nisl pretium, condimentum erat at, volutpat ex. Cras convallis, sapien nec pharetra
+                        ultricies, est lectus consequat mi, et vulputate mi mauris a diam. Nulla ac mollis neque. Sed faucibus
+                        elit quis mauris dignissim, ac porta ante finibus. Nulla egestas nibh in ipsum bibendum dictum. Nullam
+                        at ante ac dolor ullamcorper dictum. Donec odio dui, tincidunt ut aliquam et, vulputate vitae nunc.
+                        Nulla justo ante, tempor sit amet ultrices ut, semper sed velit. Donec porttitor dignissim gravida.
+                        Mauris sit amet lectus dapibus, volutpat neque sed, efficitur leo. Nunc ut mattis sem. Donec nec
+                        auctor odio. Cras lacinia, mauris in tristique dapibus, turpis erat laoreet turpis, et euismod nisl
+                        orci vitae quam. Quisque finibus vel mauris a fermentum. Curabitur nec porta nunc.</p>
+                    <p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci,
+                        porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin
+                        tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in
+                        dui ut convallis.
+                    </p>
+                    <p class="readmore">
+                        <a href="#">Resume &gt;</a>
+                    </p>
+
+
                 </div>
             </div>
         </div>
     </div>
-    <div class="justify-content-end align-items-end align-content-end footer-basic" style="background-color:rgb(0,0,0);color:rgb(255,255,255);">
+    <div class="justify-content-end align-items-end align-content-end footer-basic">
         <footer>
-            <div class="social"><a href="https://www.facebook.com/bobby.deltondo"><i class="icon ion-social-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Portfolio</a></li>
-                <li class="list-inline-item"><a href="#">Contact</a></li>
-                <li class="list-inline-item"></li>
-                <li class="list-inline-item"></li>
+            <div class="social">
+                <a class="justify-content-center align-items-center align-content-center" href="https://www.facebook.com/bobby.deltondo">
+                    <i class="icon ion-social-facebook"></i>
+                </a>
+            </div>
+            <ul class="list-inline justify-content-center align-items-center align-content-center align-self-center">
+                <li class="list-inline-item">
+                    <a href="index.html">About</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
             </ul>
             <p class="copyright">Bobby Deltondo&nbsp;</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
 </body>
 
 </html>
