@@ -13,7 +13,7 @@ h1 {
 }
 
 #skills {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -26,6 +26,10 @@ h1 {
     }
     .content {
         margin-top: 100px;
+    }
+    #skills {
+        width: 70%;
+        margin: auto;
     }
 }
 
