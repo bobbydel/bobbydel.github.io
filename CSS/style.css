@@ -3,24 +3,19 @@ body {
     overflow-x: hidden;
 }
 
-
 h1 {
     font-size: 70px;
 }
 
-.test {
-    margin-top: 2rem !important;
-}
+
 .selfie {
- margin: auto;
+    margin: auto;
 }
+
 #skills {
     width: 70%;
     margin: auto;
 }
-
-
-
 
 @media (max-width: 767px) {
     .selfie {
@@ -34,19 +29,11 @@ h1 {
     }
 }
 
-
-
-
-
 @media (max-width: 540px) {
-body {
-    font-size: .8rem;
-}
-h1 {
-   font-size: 40px;
-}
-
-
-
-
+    body {
+        font-size: .8rem;
+    }
+    h1 {
+        font-size: 40px;
+    }
 }
