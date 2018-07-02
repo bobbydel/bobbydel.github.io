@@ -6,6 +6,9 @@ body {
 h1 {
     font-size: 70px;
 }
+i {
+    float: left;
+}
 
 
 .selfie {
@@ -16,8 +19,13 @@ h1 {
     width: 50%;
     margin: auto;
 }
+.links {
+    display: block;
+    margin-bottom: 10px;
+}
 
 @media (max-width: 767px) {
+   
     .selfie {
         margin: auto;
         display: block;
@@ -28,12 +36,16 @@ h1 {
         margin-top: 100px;
     }
     #skills {
-        width: 70%;
+        width: 100%;
         margin: auto;
     }
 }
 
 @media (max-width: 540px) {
+    .links {
+        display: block;
+        margin-bottom: 10px;
+    }
     body {
         font-size: .8rem;
     }
