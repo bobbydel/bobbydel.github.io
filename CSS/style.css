@@ -18,6 +18,9 @@ h1 {
 @media (max-width: 767px) {
     .selfie {
         margin: auto;
+        display: block;
+        height: 60%;
+        width: 60%;
     }
     .content {
         margin-top: 100px;
