@@ -32,6 +32,9 @@ i {
 .card-header {
     font-size: 1.5rem;
 }
+.projectWidth {
+    width: 40%;
+}
 
 @media (max-width: 767px) {
    
