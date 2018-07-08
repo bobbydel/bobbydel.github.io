@@ -22,7 +22,15 @@ i {
 }
 .links {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
+    width: 55%;
+}
+.linkText {
+    text-decoration: none !important;
+    color: white !important;
+}
+.card-header {
+    font-size: 1.5rem;
 }
 
 @media (max-width: 767px) {
