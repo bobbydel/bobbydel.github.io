@@ -1,67 +1,16 @@
-body {
-    font-family: 'PT Mono', monospace !important;
-    overflow-x: hidden;
-}
-
-h1 {
-    font-size: 70px;
-}
-i {
-    float: left;
-    margin-left: 20px;
-}
-
-
 .selfie {
-    margin: auto;
+    margin-left: -15px;
 }
 
-#skills {
-    width: 50%;
-    margin: auto;
-}
-.links {
-    display: block;
-    margin-bottom: 10px !important;
-    width: 55%;
-}
-.linkText {
-    text-decoration: none !important;
-    color: white !important;
-}
-.card-header {
-    font-size: 1.5rem;
-}
-.projectWidth {
-    width: 40%;
-}
 
 @media (max-width: 767px) {
-   
     .selfie {
         margin: auto;
-        display: block;
-        height: 60%;
-        width: 60%;
     }
     .content {
         margin-top: 100px;
     }
-    #skills {
-        width: 100%;
-        margin: auto;
-    }
 }
-
-@media (max-width: 540px) {
-    .links {
-        display: block;
-        margin-bottom: 10px;
-    }
-    body {
-        font-size: .8rem;
-    }
-    h1 {
-        font-size: 40px;
-    }
+body {
+    font-family: 'PT Mono', monospace;
 }
